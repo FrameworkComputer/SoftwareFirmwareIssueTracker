@@ -13,12 +13,16 @@ assignees: ''
 
 Please select one of the following
 
+- [ ] Framework Laptop 12 (13th Gen Intel® Core™)
 - [ ] Framework Laptop 13 (11th Gen Intel® Core™)
 - [ ] Framework Laptop 13 (12th Gen Intel® Core™)
 - [ ] Framework Laptop 13 (13th Gen Intel® Core™)
 - [ ] Framework Laptop 13 (AMD Ryzen™ 7040 Series)
+- [ ] Framework Laptop 13 (AMD Ryzen™ AI 300 Series)
 - [ ] Framework Laptop 13 (Intel® Core™ Ultra Series 1)
 - [ ] Framework Laptop 16 (AMD Ryzen™ 7040 Series)
+- [ ] Framework Laptop 16 (AMD Ryzen™ AI 300 Series)
+- [ ] Framework Desktop (AMD Ryzen™ AI 300 PRO Series)
 
 ### BIOS VERSION
 Please provide the bios version. 
