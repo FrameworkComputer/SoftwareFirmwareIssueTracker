@@ -1,7 +1,7 @@
 ---
-name: Laptop Issue
-about: Laptop Issue related to Firmware/Software/Drivers
-title: Laptop Issue
+name: Computer Issue
+about: Computer Issue related to Firmware/Software/Drivers
+title: Computer Issue
 labels: ''
 assignees: ''
 
@@ -44,7 +44,7 @@ Storage: Manufacture and SKU
 ### Port/Peripheral information
 If you are experiencing an issue with a peripheral or an expansion card/port please fill out the following information: 
 * Peripheral vendor and name.
-* Port the Peripheral was connected to. Please see the following for port numbering: [Laptop 16](https://knowledgebase.frame.work/expansion-card-slot-functionality-on-framework-laptop-16-rkUjGm7cn) or [Laptop 13](https://knowledgebase.frame.work/expansion-card-functionality-on-framework-laptop-13-amd-ryzen-7040-series-SkrVx7gAh)
+* Port the Peripheral was connected to. Please see the following for port numbering: [Laptop 16](https://knowledgebase.frame.work/expansion-card-slot-functionality-on-framework-laptop-16-rkUjGm7cn) or [Laptop 13](https://knowledgebase.frame.work/expansion-card-functionality-on-framework-laptop-13-amd-ryzen-7040-series-SkrVx7gAh) or [Desktop](https://knowledgebase.frame.work/en_us/expansion-card-functionality-on-framework-desktop-amd-ryzen-ai-max-300-series-HyhiaJYVxl)
 * Device or expansion card attached to the **Adjacent port** to the port that is having the issue.
 1. [ Fill In device / expansion card ]
 2. [ Fill In device / expansion card ]
@@ -55,7 +55,11 @@ The following are for Laptop 16 only.
 5. [ Fill In device / expansion card ]
 6. [ Fill In device / expansion card ]
 
-### Standalone Operation
+For Desktop only
+1. [ Fill In device / expansion card ]
+2. [ Fill In device / expansion card ]
+
+### Standalone Operation (Laptop Only)
 Are you running your mainboard as a standalone device. Is standalone mode enabled in the BIOS?
 - [ ] Yes
 - [ ] No
