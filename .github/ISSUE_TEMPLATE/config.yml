@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Framework Support
+    url: https://frame.work/support
+    about: For hardware defects, warranty claims, orders, and account questions, please contact Framework Support instead of filing an issue here.
+  - name: Framework Community
+    url: https://community.frame.work
+    about: Ask questions and discuss with other Framework users and the Framework team.
+  - name: Framework Knowledge Base
+    url: https://knowledgebase.frame.work
+    about: Guides and troubleshooting articles — your issue may already have a documented solution.
