@@ -1,0 +1,116 @@
+name: Laptop 16 Issue
+description: Laptop 16 Issue related to Firmware/Software/Drivers
+title: "[Laptop 16] "
+labels: ["Laptop 16"]
+body:
+  - type: dropdown
+    id: sku
+    attributes:
+      label: System Model or SKU
+      options:
+        - Framework Laptop 16 (AMD Ryzen™ 7040 Series)
+        - Framework Laptop 16 (AMD Ryzen™ AI 300 Series)
+    validations:
+      required: true
+  - type: input
+    id: bios-version
+    attributes:
+      label: BIOS Version
+      description: >-
+        Windows: open a command terminal as administrator and run
+        `wmic bios get SMBIOSBIOSVERSION`.
+        Linux: open a terminal and run `sudo dmidecode --string bios-version`.
+      placeholder: e.g. 3.06
+    validations:
+      required: true
+  - type: textarea
+    id: diy-info
+    attributes:
+      label: DIY Edition Information
+      description: >-
+        If you are experiencing an issue on a DIY system, please also fill out
+        the memory and storage devices you are using.
+      value: |
+        Memory: [Manufacturer and SKU]
+        Storage: [Manufacturer and SKU]
+  - type: textarea
+    id: port-peripheral
+    attributes:
+      label: Port/Peripheral Information
+      description: >-
+        If you are experiencing an issue with a peripheral or an expansion
+        card/port, please fill out the peripheral vendor and name, the port it
+        was connected to (see
+        [Laptop 16 port numbering](https://knowledgebase.frame.work/expansion-card-slot-functionality-on-framework-laptop-16-rkUjGm7cn)),
+        and the device or expansion card attached to the **adjacent port**.
+      value: |
+        Peripheral vendor and name:
+        1. [Fill in device / expansion card]
+        2. [Fill in device / expansion card]
+        3. [Fill in device / expansion card]
+        4. [Fill in device / expansion card]
+        5. [Fill in device / expansion card]
+        6. [Fill in device / expansion card]
+  - type: dropdown
+    id: standalone
+    attributes:
+      label: Standalone Operation
+      description: >-
+        Are you running your mainboard as a standalone device? Is standalone
+        mode enabled in the BIOS?
+      options:
+        - Full System, Standalone mode NOT enabled (normal usage)
+        - Full System, Standalone mode enabled
+        - Mainboard only, Standalone mode enabled
+        - Mainboard only, Standalone mode NOT enabled
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps To Reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: >-
+        If applicable, add screenshots to help explain your problem
+        (drag and drop images into this field).
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      placeholder: e.g. Windows 11 25H2, Ubuntu 26.04
+    validations:
+      required: true
+  - type: input
+    id: kernel
+    attributes:
+      label: Linux Kernel Version
+      description: If using Linux, the output of `uname -a`.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
